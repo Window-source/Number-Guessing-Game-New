@@ -1,0 +1,55 @@
+:root{
+    --BackgroundColor: #063970;
+    --textColour: #eeeee4;
+    --linkColour: #f8512c;
+}
+body{
+    background-color: var(--BackgroundColor);
+}
+
+label{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: var(--textColour);
+}
+#SelectGameMode{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#updates{
+    display: flex;
+    justify-content: center;
+    color: var(--linkColour);
+}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: var(--textColour);
+}
+
+.BackBTN{
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+#btnEasyMode{
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+#btnHardMode{
+    font-size: 25px;
+    border-radius: 6px;
+}

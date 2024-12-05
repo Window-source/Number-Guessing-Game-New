@@ -1,5 +1,5 @@
-const RandomEasyMode = Math.floor(Math.random() * 10);
-const RandomHardMode = Math.floor(Math.random() * 100);
+const RandomEasyMode = Math.floor(Math.random() * 10 + 1);
+const RandomHardMode = Math.floor(Math.random() * 100 + 1);
 let amount = 0;
 
 
